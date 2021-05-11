@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(109, 109, 109);
+}
+.social i{
+    color: rgb(201, 201, 201);
+    font-size: 50px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(187, 209, 250);
+    font-family: 'Varela Round', sans-serif;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 23px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-wrapper{
+    background: darkgrey;
+    padding: 2% 0;
+    text-align: center;
+    flex: auto;
+    font-size: 24px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    box-shadow: 0px 0px 10px rgb(109, 109, 109);
+}
+
+.nav-container a:hover{ 
+    background: rgb(207, 207, 207);
+}
+
+.nav-wrapper:hover{
+    background: rgb(207, 207, 207);
+    
+}
+
+        
+
+.school-name{
+    position: absolute;
+    left: 30px;
+    top: 19px;
+    height: px;
+    text-align: right;
+    font-size: 30px;
+    color: rgb(201, 201, 201);
+}
+
+
+.hyper-wrapper{
+    margin-top: 5%;
+    
+    
+}
+
+
+.information-layer{
+    display: flex;
+}
+
+.info-img-wrapper{
+
+    display: flexbox;
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 40%;
+}
+
+.info-img-wrapper-2{
+    
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 3%;
+    width: 40%;
+    float: right;
+
+}
+
+.info-img-wrapper-3{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 3%;
+    width: 40%;
+
+}
+
+.info-txt-wrapper{
+
+    justify-content: flex-start;
+    margin-top: 6%;
+    margin-right: 3%;
+    font-size: 22px;
+}
+
+.info-txt-wrapper-2{
+
+    text-align: left;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 11%;
+    font-size: 22px;
+    width: 40%;
+
+}
+
+.info-txt-wrapper-3{
+
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 22px;
+
+}
+
+.wrapper3{
+    display: flex;
+    margin-top: 4%;
+
+}
+
+.wrapper2{
+
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+}
+
+article{
+    margin: 2% 2%;
+}
+
+article p{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+.testimony-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: darkgray;
+    color: rgb(207, 207, 207);
+}
+
+.testimony-txt-whole{
+
+    text-align: center;
+    margin-top: 4%;
+
+}
+
+.t-txt-wrapper-2{
+
+    justify-content: center;
+    font-size: 10px;
+    width: 70%;
+    margin-right: 10%;
+    margin-left: 15%;
+    
+}
+
+
+.hyperlink-definition{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+
+
+
+
+.triangle {
+	width: 0;
+    height: 0;
+	float: left;
+	border-right: 1000px solid transparent;
+	border-bottom: 200px solid rgb(109, 109, 109);
+}
+
+.tri-hyper{
+    
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.copyright{
+    white-space: nowrap;
+
+}
+
